@@ -916,7 +916,7 @@ async function displayTopicById(index) {
     setTimeout(() => {
       pptCompleted = true;
       checkAndEnableComplete(topic[0]);
-    }, 3000);
+    }, 360000);
   } else {
     pptCompleted = true;
   }
