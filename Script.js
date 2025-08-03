@@ -1375,7 +1375,7 @@ Generated: ${new Date().toLocaleString()}
  
 
 try {
-  const response = await fetch("http://localhost:3000/proxy", {
+  const response = await fetch("https://spreadsheet-lms-backend.onrender.com/proxy", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(payload)
@@ -1399,7 +1399,7 @@ try {
 // Fetch SummaryReports data
 async function fetchSummaryReports() {
   try {
-    const response = await fetch('http://localhost:3000/proxy-get', {
+    const response = await fetch('https://spreadsheet-lms-backend.onrender.com/proxy-get', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ sheet: "SummaryReports" })
