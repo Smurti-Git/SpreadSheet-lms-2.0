@@ -394,7 +394,7 @@ input[type="radio"]:disabled + label {
       overflow: auto;
   font-weight: bold;
       position: absolute;
-      height: 636px;
+      height: 80%;
     width: 21%;
       
     display: inline-block;
@@ -423,7 +423,7 @@ li[style*="opacity:0.5"] {
     font-weight: bold;
     position: absolute;
     width: 21%;
-    height: 80px;
+    height: 80%;
     display: inline-block;
     margin: 5% 0% 5px -23%;
     padding: 18px;
