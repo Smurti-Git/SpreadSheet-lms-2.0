@@ -306,6 +306,7 @@ input[type="radio"]:disabled + label {
   text-align: center;
   color: var(--black);
   font-family: 'Poppins', sans-serif;
+  border: 1px solid black;
 }
 
 /* SCORE SUMMARY (e.g., topic score bubbles or bar) */
@@ -356,12 +357,13 @@ input[type="radio"]:disabled + label {
 
 /* COMPLETION SUMMARY (green ticks, bars) */
 #completion-summary {
-  width: 14%;
+  width: 15%;
     display: inline-block;
     margin: 18px 35px 4px 8px;
     padding: 17px;
     border-radius: 1rem;
     background-color: papayawhip;
+    border: 1px solid black;
 }
 
 #bt{    width: 19%;
@@ -388,17 +390,19 @@ input[type="radio"]:disabled + label {
   color: #28a745;
 }
 
-#leaderboard{
+#leaderboard {
       overflow: auto;
   font-weight: bold;
       position: absolute;
-    width: 17%;
-        height: 582px;
+      height: 636px;
+    width: 21%;
+      
     display: inline-block;
-    margin: 30px 35px 4px 8px;
+    margin: -29px 35px 4px 8px;
     padding: 18px;
     border-radius: 1rem;
     background-color: papayawhip;
+    border: 1px solid black;
 }
 
 li[style*="opacity:0.5"] {
@@ -409,3 +413,35 @@ li[style*="opacity:0.5"] {
   white-space: normal;
   line-height: 1.5;
 }
+
+#batch-selector-container{
+      margin-left: 29px;
+}
+
+#news-event-update{
+      overflow: auto;
+    font-weight: bold;
+    position: absolute;
+    width: 21%;
+    height: 636px;
+    display: inline-block;
+    margin: 84px 7px 4px -340px;
+    padding: 18px;
+    border-radius: 1rem;
+    background-color: papayawhip;
+    border: 1px solid black;
+}
+
+#news, #event, #update{
+     height: 16%;
+    width: 82%;
+    margin: 9px 1px;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+  }
