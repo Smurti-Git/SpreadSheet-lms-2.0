@@ -423,7 +423,7 @@ li[style*="opacity:0.5"] {
     font-weight: bold;
     position: absolute;
     width: 21%;
-    height: 636px;
+    height: 80px;
     display: inline-block;
     margin: 5% 0% 5px -23%;
     padding: 18px;
@@ -433,7 +433,7 @@ li[style*="opacity:0.5"] {
 }
 
 #news, #event, #update{
-     height: 16%;
+     height: 19%;
     width: 82%;
     margin: 9px 1px;
     background-color: var(--white);
