@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LMS Dashboard</title>
+  <link rel="icon" type="image/png" href="skilcell.png">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -71,19 +72,28 @@
 
   <!-- Home Content -->
   <div id="home-content" class="right-panel">
+    
+    <div id="news-event-update"><h2>What's New</h2>
+      <label for="news"><strong>News:</strong></label>
+       <div id="news"></div>
+       <label for="event"><strong>Event</strong></label>
+     <div id="event"></div>
+     <label for="update"><strong>Update</strong></label>
+     <div id="update"></div>
+    </div>
     <h2 style="padding: 14px; margin-left: -23%;">Dashboard Summary</h2>
     <div id="batch-selector-container" style="margin-bottom: 10px;">
-  <label for="batch-selector"><strong>Select Batch:</strong></label>
-  <select id="batch-selector" onchange="onBatchChange()"></select>
-</div>
+     <label for="batch-selector"><strong>Select Batch:</strong></label>
+     <select id="batch-selector" onchange="onBatchChange()"></select>
+    </div>
 
-    <div id="user-summary"></div>
-    <div id="score-summary"></div>
-    <div id="time-summary"></div>
-    <div id="leaderboard">Leaderboard</div>
-    <div id="incomplete-topics-summary"></div>
-    <div id="completion-summary"></div>
-    <button id="bt" onclick="downloadSummary()">Download Summary</button>
+     <div id="user-summary"></div>
+     <div id="score-summary"></div>
+     <div id="time-summary"></div>
+     <div id="leaderboard">Leaderboard</div>
+     <div id="incomplete-topics-summary"></div>
+     <div id="completion-summary"></div>
+     <button id="bt" onclick="downloadSummary()">Download Summary</button>
   </div>
 
 
