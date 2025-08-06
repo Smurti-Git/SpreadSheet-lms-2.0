@@ -1482,6 +1482,7 @@ validRows.sort((a, b) => {
           <th>Rank</th>
           <th>Email</th>
           <th>Department</th>
+          <th>Course</th>
           <th>Topics Completed</th>
           <th>Total Score</th>
         </tr>
@@ -1492,6 +1493,7 @@ validRows.sort((a, b) => {
             <td>${index + 1}</td>
             <td>${row[2]}</td>
             <td>${row[4]}</td>
+            <td>${row[5]}</td>
             <td>${row[6]}</td>
             <td>${cleanScore(row[10])}</td>
           </tr>
@@ -1500,7 +1502,7 @@ validRows.sort((a, b) => {
     </table>
   `;
 
-  leaderboardDiv.innerHTML = tableHTML;
+  leaderboardDiv.innerHTML = tableHTML; 
 }
 
 
