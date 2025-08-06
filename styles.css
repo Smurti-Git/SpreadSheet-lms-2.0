@@ -419,13 +419,13 @@ li[style*="opacity:0.5"] {
 }
 
 #news-event-update{
-      overflow: auto;
+       overflow: auto;
     font-weight: bold;
     position: absolute;
     width: 21%;
     height: 636px;
     display: inline-block;
-    margin: 84px 7px 4px -340px;
+    margin: 5% 0% 5px -23%;
     padding: 18px;
     border-radius: 1rem;
     background-color: papayawhip;
